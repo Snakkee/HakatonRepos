@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:title="Login"
+    android:id="@+id/login"
+    android:icon="@drawable/ic_login"
+    app:showAsAction="ifRoom"
+    android:orderInCategory="6"
+    ></item>
+    <item
+        android:title="History"
+        android:id="@+id/hist"
+        android:icon="@drawable/ic_history"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        ></item>
+    <item
+        android:title="Family"
+        android:id="@+id/fam"
+        android:icon="@drawable/ic_family"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="5"
+        ></item>
+    <item
+        android:title="Statistics"
+        android:id="@+id/stat"
+        android:icon="@drawable/ic_stat"
+        app:showAsAction="always"
+        android:orderInCategory="4"
+        ></item>
+    <item
+        android:title="Advice"
+        android:id="@+id/adv"
+        android:icon="@drawable/ic_advice"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        ></item>
+    <item
+        android:title="Add"
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        ></item>
+</menu>

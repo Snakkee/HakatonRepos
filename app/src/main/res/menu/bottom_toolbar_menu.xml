@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="History"
+        android:id="@+id/hist"
+        android:icon="@drawable/ic_history"
+        android:orderInCategory="1"
+        ></item>
+    <item
+        android:title="Statistics"
+        android:id="@+id/stat"
+        android:icon="@drawable/ic_stat"
+        android:orderInCategory="2"
+        ></item>
+    <item
+        android:title="Advice"
+        android:id="@+id/adv"
+        android:icon="@drawable/ic_advice"
+        android:orderInCategory="4"
+        ></item>
+    <item
+        android:title="Add"
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="3"
+        ></item>
+    <item
+        android:title="Family"
+        android:id="@+id/fam"
+        android:icon="@drawable/ic_family"
+        android:orderInCategory="5"
+        ></item>
+</menu>
