@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/linearLayout2" android:layout_marginTop="1dp" android:layout_marginBottom="1dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="121dp"
+                android:layout_height="81dp" android:layout_gravity="center|right">
+
+            <Button
+                    android:text="Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button2"
+                    android:gravity="center|right"
+                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginEnd="11dp"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="575dp">
+
+            <TableRow android:layout_width="match_parent" android:layout_height="39dp" android:layout_marginLeft="0"
+                      android:layout_marginTop="10" android:layout_marginEnd="0" android:layout_marginRight="5"
+                      android:layout_marginBottom="5" android:layout_marginStart="5">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:text="Имя"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView5"/>
+                    <TextView
+                            android:text="Описание"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView4"/>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:layout_marginTop="10" android:layout_marginLeft="0" android:layout_marginEnd="0">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:text="Имя"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView5"/>
+                    <TextView
+                            android:text="Описание"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView4"/>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:layout_marginTop="10" android:layout_marginLeft="0" android:layout_marginEnd="0">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:text="Имя"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView5"/>
+                    <TextView
+                            android:text="Описание"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView4"/>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="24dp" android:layout_marginTop="10"
+                      android:layout_marginLeft="0" android:layout_marginEnd="0">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:text="Имя"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView5"/>
+                    <TextView
+                            android:text="Описание"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView4"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button3" android:gravity="center"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
